@@ -38,16 +38,16 @@
         <div class="form-wrapping">
           <div>
             <label for="name">Nome</label>
-            <input type="text" id="name" name="name" />
+            <input type="text" id="name" name="name" required />
           </div>
           <div>
             <label for="lastName">Sobrenome</label>
-            <input type="text" id="lastName" name="lastName" />
+            <input type="text" id="lastName" name="lastName" required />
           </div>
         </div>
         <div class="form-wrapping-line">
           <label for="email">E-mail <span>(digite um e-mail válido)</span></label>
-          <input type="email" id="email" name="email" />
+          <input type="email" id="email" name="email" required/>
         </div>
       </fieldset>
 
@@ -56,7 +56,12 @@
         <div class="form-wrapping">
           <div>
             <label for="mentor">Selecione quem foi seu mentor</label>
-            <input type="text" id="mentor" name="mentor" />
+            <select name="mentor" id="mentor">
+              <option disabled value="">Selecione seu mentor</option>
+              <option value="mayk brito">Mayk Brito</option>
+              <option value="rodrigo goncalves">Rodrigo Gonçalves</option>
+              <option value="diego schell">Diego Schell</option>
+            </select>
           </div>
         </div>
         <div class="form-wrapping-textarea" >

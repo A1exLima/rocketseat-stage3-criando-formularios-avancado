@@ -105,16 +105,20 @@ fieldset {
   margin-bottom: 8px;
 }
 
-.form-wrapping input {
+.form-wrapping input, .form-wrapping select {
   background: #fafafc;
   border: 1px solid #e6e6f0;
   border-radius: 8px;
   width: 300px;
   height: 56px;
-  padding: 20px;
+  padding: 20px 10px;
   font-size: 1.1rem;
   font-family: "Poppins";
   color: #544d62;
+}
+
+.form-wrapping select{
+  padding: 10px;
 }
 
 .form-wrapping-line {
@@ -147,7 +151,7 @@ fieldset {
   border-radius: 8px;
   width: 622px;
   height: 56px;
-  padding: 20px;
+  padding: 20px 10px;
   font-size: 1.1rem;
   font-family: "Poppins";
   color: #544d62;
@@ -186,7 +190,7 @@ legend {
   border-radius: 8px;
   width: 100%;
   height: 167px;
-  padding: 20px;
+  padding: 20px 10px;
   font-size: 1.1rem;
   font-family: "Poppins";
   color: #544d62;
