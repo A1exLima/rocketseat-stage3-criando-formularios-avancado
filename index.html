@@ -25,5 +25,67 @@
       href="https://www.linkedin.com/in/alima07"
       ><img src="./public/images/assinatura.svg" alt="DevJunior"
     /></a>
+    <header>
+      <h1>AVALIE SUA MENTORIA</h1>
+      <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+      <img src="./public/images/estrelas.svg" alt="logo balão três estrelas" />
+      <div class="title_form">
+        <h2>INFORMAÇÕES PESSOAIS</h2>
+      </div>
+    </header>
+    <form id="container-form" action="" method="">
+      <fieldset>
+        <div class="form-wrapping">
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="lastName">Sobrenome</label>
+            <input type="text" id="lastName" name="lastName" />
+          </div>
+        </div>
+        <div class="form-wrapping-line">
+          <label for="email">E-mail <span>(digite um e-mail válido)</span></label>
+          <input type="email" id="email" name="email" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>INFORMAÇÕES DO MENTOR</legend>
+        <div class="form-wrapping">
+          <div>
+            <label for="mentor">Selecione quem foi seu mentor</label>
+            <input type="text" id="mentor" name="mentor" />
+          </div>
+        </div>
+        <div class="form-wrapping-textarea" >
+          <label for="feedback">feedback sobre o mentor</label>
+          <textarea name="feedback" id="feedback"></textarea>
+        </div>
+        <div class="form-wrapping-checkbox">
+          <input type="checkbox" id="doubt" name="doubt">
+          <label for="doubt">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>AGENDANDO PRÓXIMA MENTORIA</legend>
+        <div class="form-wrapping">
+          <div>
+            <label for="date">Data</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <div class="time">
+            <label for="time">Das</label>
+            <input type="time" id="time" name="time" />
+          </div>
+          <div class="time">
+            <label for="time2">Até</label>
+            <input type="time" id="time2" name="time2" />
+          </div>
+        </div>
+      </fieldset>
+      <button class="button-form" form="container-form">SALVAR</button>
+    </form>
   </body>
 </html>
